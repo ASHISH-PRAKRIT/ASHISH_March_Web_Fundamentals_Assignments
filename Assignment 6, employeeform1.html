@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnTech</title>
+    <style>
+        body {
+            margin: 0px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_2oRA94OZW8uhBddv8YKdg4p16_rqLlq9g&usqp=CAU);
+            background-size: cover;
+            font-family: sans-serif;
+        }
+        header {
+            background-color: rgb(218, 143, 5);
+            
+            height: 5em;
+            
+        }
+        #cmpname {
+            color:silver;
+            background-color:darkblue;
+            height: 5em;
+            text-align: center;
+            width: 40%;
+            float: left;
+            border:2px solid silver;
+            box-sizing: border-box;
+
+        }
+        #menu {
+            color: rgb(0, 0, 0);
+            height: 5em;
+            text-align: center;
+            width: 60%;
+            float: right;
+
+        }
+        h2 {
+            line-height: 0rem;
+            margin-bottom: 0px;
+            margin-left:20px;
+            float: left;
+            font-size: 30px;
+        }
+        h4{
+            line-height: 3rem;
+
+            float: left;   
+        }
+        form{
+           border: 2px solid black;
+          margin: 50px;
+          padding: 20px;
+           display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            
+           }
+
+           a {
+            color: rgb(0, 0, 0);
+            line-height: 5em;
+            margin: 16px;
+            text-decoration-line: none;
+
+        }
+
+        .heading1{
+            border: 5px solid green;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .feild{
+            
+            margin-left: 30%;
+            padding: 20px;
+            
+            
+        }
+        label{
+            color: #16d347;
+            font-size: 20px;
+            padding: 20px;
+           
+
+        }
+        button{
+            padding: 10px;
+            margin: 10px;
+            width: 100px;
+            background-color: blueviolet;
+            border-radius: 10px;
+        }
+        input{
+            color: blueviolet;
+            border: none;
+            padding: 10px;
+            font-size: large;
+            border-radius: 50px;
+            
+
+        }
+        .checkbox{
+            margin-left: 10px;
+        }
+        span{
+            color: #16d347;
+            font-size: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+        <div id="cmpname">
+            <h2>LearnTech</h2>
+            <h4>wearehiring</h4>
+        </div>
+
+        <div id="menu"><b>
+        <a href="">Home</a>
+        <a href="">Products</a>
+        <a href="">Services</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </b>
+        </div>
+        </nav>
+    </header>
+
+    <main>
+        <form action="">
+            <div class="heading1">Personal Details</div>
+            <hr>
+            <div class="feild">
+                <label for="employee Name">Enter Your Name</label>
+                <input id="employee Name" type="text" placeholder="i.e, Rohan Goyal">
+            </div>
+
+            <div class="feild">
+                <label for="address">Address</label>
+                <input id="address" type="text" placeholder="xyz--city">
+            </div>
+
+            <div>
+                <label for="" style="margin-left:30%;">Gender</label>
+                <input id="radio1" type="radio" ><span>Male</span>
+                <input id="radio2" type="radio" ><span>Female</span>
+                <input id="radio3" type="radio" ><span>Other</span>
+
+            </div>
+
+            <div class="feild">
+                <label for="email">Email address</label>
+                <input id="email" type="email" placeholder="@gmail.com">
+            </div>
+
+            <div class="feild">
+                <label for="phone">Phone.No</label>
+                <input id="phone" type="text" placeholder="+912343567487">
+            </div>
+
+            <div class="feild">
+                <label for="">Phone.No</label>
+                <input id="phone" type="phone number" placeholder="+912343567487">
+            </div>
+
+            <div class="feild">
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="password">
+            </div>
+
+            <div>
+                <hr>
+                <input id="checkbox" type="checkbox"  ><label for="checkbox">Check out our Terms and Conditions FAQ article for more helpful <br> insight into these important agreements.</label>
+            </div>
+
+            <button>
+                    Submitt
+            </button>
+        </form>
+    </main>
+    
+
+</body>
+</html>
