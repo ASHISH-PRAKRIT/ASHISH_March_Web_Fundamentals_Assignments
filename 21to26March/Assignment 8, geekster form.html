@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail form</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        header {
+            display: flex;
+            background-color: white;
+            border-bottom: groove;
+            
+        }
+        #cmpname {
+            color:green;
+            background-color: white;
+            padding: 6px;
+            text-align: center;
+            width: 30%;
+           
+        }
+        #menu
+        {
+            color: green;
+            background-color: white;
+            padding: 30px;
+            text-align: center;
+            margin-right: 90px;
+            width: 30%;
+            display: flex;
+            align-content: center;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            text-decoration-line: none;
+        } 
+        a{
+            text-decoration-line: none;
+            color: black;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: larger;
+            font-weight: 100;
+        }
+        a:hover{
+            color: rgb(138, 255, 138);
+        }
+        button{
+            background-color: green;
+            border: none;
+            border-radius: 6px;
+            margin: 24px;
+            width: 85px;
+            height: 37px;
+            color: white;
+        }
+        .container{
+            
+            position: relative;
+            height: 500px;
+            
+        }
+        .h1{
+            font-weight: 900;
+            font-size: xxx-large;
+            margin-left: 35%;
+        }
+        .h2{
+            font-weight: 900;
+            font-size: xxx-large;
+            color: green;   
+        }
+        .form{
+            display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px;
+        align-content: center;
+        }
+        input{
+        border: 1px solid #dddddd;
+        height: 35px;
+        width: 100%;
+        border-radius: 8px;
+        
+        }
+        .feild{
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+        margin-bottom: 47px;
+        justify-content: space-between;
+        }
+       
+
+    </style>
+</head>
+
+<body>
+    <header>
+       
+        <div id="cmpname">
+            <h2>Geekster</h2>
+        </div>
+
+        <div id="menu">
+        <a href="">Home</a>
+        <a href="">Products</a>
+        <a href="">Services</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        </div>
+
+        <div class="btn1">
+            <button>Apply Now</button>
+        </div>
+        
+    </header>
+
+    <main>
+        <div class="container">
+                <span class="h1">Application</span>
+                <span class="h2">Form</span>
+                <div class="form">
+                    
+                    <div class="feild">
+                        <div>Enter Your Name</div>
+                        <input id="employee Name" type="text" placeholder="i.e, Rohan Goyal">
+                    
+                        <label for="email">Email address</label>
+                        <input id="email" type="email" placeholder="@gmail.com">
+                  </div>
+
+            <div class="feild">
+                <label for="course">Select course</label>
+                <input id="course" type="text" placeholder="Select course">
+            </div>
+            <div class="feild">
+                <label for="phone">Phone.No</label>
+                <input id="phone" type="number" placeholder="+912343567487">
+        
+                <label for="hg">Highest Degree</label>
+                <input id="hg" type="text" placeholder="Highest Degree">
+            </div>
+            <div class="feild">
+                <label for="yoc">Year of complition</label>
+                <input id="yoc" type="text" placeholder="Year of completion">
+
+                <label for="ps">Programming skill</label>
+                <input id="ps" type="text" placeholder="Programming skill">
+
+            </div>
+
+            <div>
+                <hr>
+                <input id="checkbox" type="checkbox"  style="width: 15px;"><label for="checkbox" style="width: 10px;">Check out our Terms and Conditions FAQ article for more helpful <br> insight into these important agreements.</label>
+            </div>
+
+            <button>
+                    Submit
+            </button>
+        </form>
+                    
+                    </div>
+                       
+    </main>
+    
+
+</body>
+</html>
