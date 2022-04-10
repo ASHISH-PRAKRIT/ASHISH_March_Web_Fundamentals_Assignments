@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    background-color: #24252A;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    
+}
+.header{
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    background-color:salmon ;
+    position: fixed;
+    top: 0px;
+    
+}
+.logo{
+    width: 40%;
+    font-weight: 700;
+    font-family: sans-serif;
+    color:transparent;
+    float: left;
+    color: darkcyan;
+    font-size: x-large;
+}
+.menu{
+    width: 60%;
+    float: right;
+    font-size: 18px;
+    
+}
+a{
+    margin: 20px;
+    text-decoration: none;
+    color: green;
+    font-family: sans-serif;
+}
+a:hover{
+    color: darkcyan;
+    background-color: #24252A;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 50px;
+   
+}
+.main{
+    display: flex;
+    
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+img{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    object-fit: cover;
+    object-position: bottom;
+}
+img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.footer{
+    
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 70px;
+        align-items: center;
+        text-align: center;
+        background-color:rgb(26, 9, 8) ;
+        position: fixed;
+        bottom: 0px;
+        justify-content: end;
+        
+    }
+    #btn{
+        color: #242424;;
+        font-size: 20px;
+        background-color:white;
+        padding: 10px;
+        border-radius: 50px;
+        margin: 15px;
+        padding: 5px;
+        width: 110px;
+
+    }
