@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM on event handler</title>
+    <style>
+        #feild{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+                }
+        input{
+            border:1px solid red ;
+            padding: 5px;
+            
+        }
+        button{
+            padding: 5px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form id="feild">
+        <input type="text" id="inpfeild" placeholder="write here" required>
+        
+        <button type="submit" >Submit</button>
+    </form>
+
+
+    <script>
+        var a = document.getElementById('feild')
+        a.addEventListener('submit',function(event){
+            event.preventDefault();
+
+            var inpfeild = document.getElementById('inpfeild').value
+
+            alert(inpfeild);
+            
+        })
+    </script>
+</body>
+</html>
